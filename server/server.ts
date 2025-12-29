@@ -10,7 +10,8 @@ app.use(cors(
     {
         origin: [
             "http://localhost:5173",
-            process.env.FRONTEND_URL || "https://task-manager-one-snowy-58.vercel.app/" // Replace '*' with your Vercel URL later
+            // REMOVED the trailing slash below
+            "https://task-manager-one-snowy-58.vercel.app"
         ],
         allowedHeaders: ["Content-Type", "Authorization", "token"]
     }
