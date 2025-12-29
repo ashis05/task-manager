@@ -10,7 +10,7 @@ app.use(cors(
     {
         origin: [
             "http://localhost:5173",
-            process.env.FRONTEND_URL || "*" // Replace '*' with your Vercel URL later
+            process.env.FRONTEND_URL || "https://task-manager-one-snowy-58.vercel.app/" // Replace '*' with your Vercel URL later
         ],
         allowedHeaders: ["Content-Type", "Authorization", "token"]
     }
@@ -23,4 +23,4 @@ app.get('/', (req, res) => {
 
 app.use('/api', serverRoutes);
 
-app.listen(PORT, () => console.log('Example app listening on port 5000!'));
+app.listen(PORT, () => console.log('Example app listening on  https://task-manager-one-snowy-58.vercel.app/login'));
