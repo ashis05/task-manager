@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016",               /* Modern JS version */
+    "module": "commonjs",             /* Standard for Node.js */
+    "rootDir": "./",
+    "outDir": "./dist",               /* Where compiled JS goes */
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Module Resolution Options */
+    "esModuleInterop": true,          /* <--- This FIXES your specific error */
+    "skipLibCheck": true,             /* Skips checking types in node_modules */
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts"],             /* Include all TS files */
+  "exclude": ["node_modules"]
+}
