@@ -5,7 +5,7 @@ import {Input} from "@/components/ui/input.tsx";
 import {useState} from "react";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import {Button} from "@/components/ui/button.tsx";
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import axios from "axios";
 import {Spinner} from "@/components/ui/spinner.tsx";
 
@@ -118,7 +118,7 @@ function SignUp() {
                             </Button>
                         </div>
                         <div className="flex justify-center ">
-                            <p className="text-[#92a4c9]">Already have an account? <a href="/login" className="text-[#135bec] hover:underline">Login</a></p>
+                            <p className="text-[#92a4c9]">Already have an account? <Link to="/login" className="text-[#135bec] hover:underline">Login</Link></p>
                         </div>
                     </form>
                 </CardContent>
