@@ -17,7 +17,7 @@ Designed with **scalability, security, and clean UI/UX** in mind, this project d
 ## 🖼️ Screenshots & Demo GIFs
 
 | Login | Sign Up | Create Task | Dashboard
-|-----------|--------------------|-----------|--------------------|
+|--------------------|--------------------|--------------------|--------------------|
 | ![Login](assets/login.png) | ![Sign Up](assets/signup.png) || ![Create Task](assets/createtask.png) | ![Dashboard](assets/dashboard.png) |
 
 ---
