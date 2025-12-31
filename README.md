@@ -20,7 +20,6 @@ Designed with **scalability, security, and clean UI/UX** in mind, this project d
 |--------------------|--------------------|
 | ![Login](assets/login.png) | ![Sign Up](assets/signup.png) |
 | Create Task | Dashboard |
-|--------------------|--------------------|
 | ![Create Task](assets/createtask.png) | ![Dashboard](assets/dashboard.png) |
 ---
 
