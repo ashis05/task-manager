@@ -16,28 +16,9 @@ Designed with **scalability, security, and clean UI/UX** in mind, this project d
 
 ## 🖼️ Screenshots & Demo GIFs
 
-```text
-📷 Screenshot 1 – Login / Signup Page
-📷 Screenshot 2 – Dashboard Overview
-📷 Screenshot 3 – Create / Edit Task Modal
-📷 Screenshot 4 – Task Filters, Tags & Priority
-🎞️ Demo GIF – Full Task Flow (Optional)
-```
-
-**Recommended image naming:**
-```
-/assets/
-  ├── login.png
-  ├── dashboard.png
-  ├── create-task.png
-  ├── filters.png
-  └── demo.gif
-```
-
-Then embed like:
-```md
-![Dashboard](assets/dashboard.png)
-```
+| Login | Sign Up | Create Task | Dashboard
+|-----------|--------------------|-----------|--------------------|
+| ![Login](assets/login.png) | ![Sign Up](assets/signup.png) || ![Create Task](assets/createtask.png) | ![Dashboard](assets/dashboard.png) |
 
 ---
 
